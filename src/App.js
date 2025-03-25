@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { getCategories, createCategory } from './services/categoryService';
-import { getProducts, createProducts } from './services/productService';
+import { getCategories, createCategory } from './services/categoryService'; //ruta a los servicios
+import { getProducts, createProducts } from './services/productService'; //ruta a los servicios
 import CategoryForm from './components/CategoryForm';
 import CategoryList from './components/CategoryList';
 import ProductForm from './components/ProductForm';
